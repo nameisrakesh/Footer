@@ -1,0 +1,247 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Footer Section */
+.footer {
+    padding: 50px;
+    background-color: #0a0b2a; /* Dark navy background color */
+    color: #fff; /* White text color */
+    position: relative;
+}
+
+.footer .box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer .box {
+    max-width: 300px;
+}
+
+.footer .box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer .box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer .box a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer .box a:hover {
+    color: #ff6b6b; /* Change this to the default hover color for other links */
+}
+
+/* Hover effect for links in Branch Locations and Contact Info */
+.branch-locations a:hover,
+.contact-info a:hover {
+    color: #ff9800; /* Orange color */
+}
+
+.footer .contact-info p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Newsletter Section */
+.newsletter {
+    margin-top: 30px;
+    background-color: #ff9800; /* Orange background for newsletter */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff9800;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+/* Social Icons at the Bottom */
+.social-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 15px;
+    color: #fff;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff6b6b;
+}
+
+/* Credit */
+.footer .credit {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.footer .credit a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer .credit a:hover {
+    color: #aaa;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff9800; /* Orange button color */
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+    background-color: #ff6b6b;
+}
+
+/* Chat button */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Positioning to the left side */
+    background-color: #ff9800;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+    background-color: #ff6b6b;
+}
+
+/* Chat form */
+.chat-form {
+    position: fixed;
+    bottom: 90px;
+    left: 20px; /* Positioning to the left side */
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.chat-form-header {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chat-form-body {
+    padding: 20px;
+}
+
+.chat-form-body input,
+.chat-form-body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chat-form-body button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.chat-form-body button:hover {
+    background-color: #ff6b6b;
+}
+
+/* Close button */
+.close-chat {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #ff9800;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.close-chat:hover {
+    background-color: #ff6b6b;
+}
